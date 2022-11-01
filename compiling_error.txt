@@ -1,0 +1,7 @@
+/tmp/ccL1GlrX.o: In function `main':
+TrieTest.cpp:(.text+0x27): undefined reference to `Trie::Trie()'
+TrieTest.cpp:(.text+0x5d): undefined reference to `Trie::addAWord(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+TrieTest.cpp:(.text+0xab): undefined reference to `Trie::isAWord(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+TrieTest.cpp:(.text+0x111): undefined reference to `Trie::~Trie()'
+TrieTest.cpp:(.text+0x17a): undefined reference to `Trie::~Trie()'
+collect2: error: ld returned 1 exit status
